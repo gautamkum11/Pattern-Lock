@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    font-size: 65.2%;
+  }
+  body {
+    position: static;
+    justify-content: center;
+    background-color: #79cbb8;
+  }
+  #root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    color: #500472;
+    font-weight: bold;
+    font-size: 10rem;
+    font-family: sans-serif;
+    padding: 2rem 0;
+  }
+
+  .heading {
+    text-align: center;
+    font-size: 4rem;
+  }
+
+  .react-pattern-lock__pattern-wrapper.error
+    .react-pattern-lock__point-wrapper.selected
+    .react-pattern-lock__point
+    .react-pattern-lock__point-inner {
+    background: black !important;
+  }
+  .react-pattern-lock__pattern-wrapper
+    .react-pattern-lock__point-wrapper
+    .react-pattern-lock__point
+    .react-pattern-lock__point-inner {
+    background: #e74c3c !important;
+  }
+  
+  .react-pattern-lock__pattern-wrapper.error
+    .react-pattern-lock__connector-wrapper
+    .react-pattern-lock__connector {
+    background: black !important;
+  }
+  
+  .react-pattern-lock__pattern-wrapper
+    .react-pattern-lock__connector-wrapper
+    .react-pattern-lock__connector {
+    background: #e74c3c !important;
+  }
+
+  .dropdown {
+    display: inline-block flex;
+    position: relative;
+    text-align: center;
+  }
+
+  .dropdown-options {
+    display: none;
+    position: absolute;
+    overflow: auto;
+    background-color:#fff;
+    border-radius:5px;
+    text-align: center;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.4);
+  }
+
+  .dropdown:hover .dropdown-options {
+    display: block;
+  }
+
+  .dropdown-options a {
+    display: block;
+    color: #000000;
+    padding: 2px;
+    text-decoration: none;
+    padding:10px 10px;
+  }
+  
+  .dropdown-options a:hover {
+    color: #0a0a23;
+    background-color: #ddd;
+    border-radius:5px;
+  }
+
+  a {
+    text-decoration-line: none;
+  }
+
+  button{
+    text-align: center;
+    justify-content: center;
+    color: white;
+    background-color: #500472;
+    /* margin : 5px; */
+    display: flex;
+    border:none;
+    border-radius:5px;
+    /* padding:5px 5px; */
+    font-size: 1.7rem;
+    cursor:pointer;
+    width: 15rem;
+  }
+  
