@@ -26,8 +26,8 @@ function Forgotpattern() {
     }
 
     return <div style = {{marginTop : "200px", textAlign : "center"}}>
-        <label style = {{fontSize : "30px"}}>What is "40"+"50" : </label>
-        <input style = {{justifyContent: "center", fontSize: "30px", borderRadius: "10px"}} type= "text" onChange = {handlechange} />
+        <label style = {{fontSize : "3rem"}}>What is "40"+"50" : </label>
+        <input style = {{justifyContent: "center", fontSize: "3rem", borderRadius: "1rem", textAlign: "center"}} type= "text" onChange = {handlechange} />
         <div style = {{display : "flex", margin: "40px", textAlign : "center", justifyContent: "space-evenly"}}>
         <button style = {{backgroundColor: "#e74c3c" , paddingTop: "5px", paddingBottom: "5px"}} onClick = {handleclick}>Submit</button>
         <Link to = {{
