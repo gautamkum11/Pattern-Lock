@@ -15,6 +15,7 @@ function Checkpattern(props) {
     {
         alert("Pattern successfully set");
         window.localStorage.setItem('MY_APP_STATE', JSON.stringify(k));
+        // eslint-disable-next-line
         <Link to = {{
           pathname : "drawpattern"
         }}></Link>

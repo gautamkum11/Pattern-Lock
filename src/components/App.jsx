@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import React from "react";
 import Checkpattern from "./Checkpattern";
 import Setpattern from "./Setpattern";
